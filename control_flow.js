@@ -33,6 +33,12 @@ if (isLoggedIn) {
 let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticated";
 
 
+const suma = (a,b) =>  a + b;
+
 console.log("Access Level:", accessLevel);
 console.log("User Message:", userMessage);
 console.log(authenticationStatus);
+
+console.log(suma(1,2));
+ 
+console.log(suma(132432,2342342));
