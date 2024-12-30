@@ -9,17 +9,3 @@ test('renders learn react link', () => {
 });
 
 
-form_post('configuracion de form', () => {
-  render(<FormCsr1/>); 
-  const dataForm = screen.dataForm('/dist/configuracion/form');
-  expect(dataForm).toEqual(form_post('configuracion de form', () => {
-    // Test de la data obtenida
-    satisfies(form_post('configuration de form', () => {
-      // Test de la data obtenida
-      expect(dataForm).toEqual({
-        // Esperado
-      })
-    })
-  })
-}
-])
